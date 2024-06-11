@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/ComputerAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/LaptopFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/PCFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/ServerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/TestAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/abstractFactory/abstractFactory.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/factory/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/factory/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/factory/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/factory/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/factory/TestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/factory/factory.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/BillPughSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/EagerInitializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/LazyInitializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/SerializedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/StaticBlockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/creational/singleton/singleton.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2hk7vj54RBoLp1NLkk9OkwccwC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TestAbstractFactory.executor": "Run",
+    "Application.TestFactory.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestAbstractFactory">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Main" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.creational.abstractFactory.TestAbstractFactory" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof.creational.abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.creational.factory.TestFactory" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof.creational.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestAbstractFactory" />
+        <item itemvalue="Application.TestFactory" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="" />
+      <created>1718126456646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718126456646</updated>
+    </task>
+    <servers />
+  </component>
+</project>
