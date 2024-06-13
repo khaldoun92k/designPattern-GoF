@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Builder/ Prototype DPs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/AdapterPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/Socket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/SocketAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/SocketClassAdapterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/SocketObjectAdapterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/Volt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/adapter/adapter.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/composite/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/composite/Drawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/composite/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/composite/TestCompositePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/composite/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/composite/composite.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/proxy/ActualWeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/proxy/TestProxyPattren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/proxy/WeatherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/proxy/WeatherServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/proxy/proxy.md" afterDir="false" />
+    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Adapter+Composite+Proxy DPs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/facade.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/DrawingClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/Oval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/flyweight.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DrawingClient.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PrototypePatternTest.executor": "Run",
     "Application.TestAbstractFactory.executor": "Run",
@@ -74,13 +64,13 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCompositePattern">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Main" />
+  <component name="RunManager" selected="Application.DrawingClient">
+    <configuration name="DrawingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.structural.flyweight.DrawingClient" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.*" />
+          <option name="PATTERN" value="gof.structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrawingClient" />
         <item itemvalue="Application.TestCompositePattern" />
         <item itemvalue="Application.PrototypePatternTest" />
         <item itemvalue="Application.TestAbstractFactory" />
         <item itemvalue="Application.TestFactory" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718197942251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Adapter+Composite+Proxy DPs">
+      <option name="closed" value="true" />
+      <created>1718217058093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718217058093</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Builder/ Prototype DPs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Builder/ Prototype DPs" />
+    <MESSAGE value="added Adapter+Composite+Proxy DPs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Adapter+Composite+Proxy DPs" />
   </component>
 </project>
