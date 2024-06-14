@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Adapter+Composite+Proxy DPs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/facade.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/DrawingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/Oval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/flyweight/flyweight.md" afterDir="false" />
+    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Flyweight DP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/BridgePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/GreenColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Pentagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/RedColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/bridge.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/BasicCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/CarDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/DecoratorPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/LuxuryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/SportsCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/decorator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/FacadePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/HelperFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/MySqlHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/OracleHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gof/structural/facade/facade.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/facade.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +56,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BridgePatternTest.executor": "Run",
+    "Application.DecoratorPatternTest.executor": "Run",
     "Application.DrawingClient.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PrototypePatternTest.executor": "Run",
@@ -53,18 +68,49 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nabli\IdeaProjects\designPattern-GoF\src\main\resources\imgs" />
+      <recent name="C:\Users\nabli\IdeaProjects\designPattern-GoF\src\main\resources" />
       <recent name="C:\Users\nabli\IdeaProjects\designPattern-GoF\src\main\java\gof\structural" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DrawingClient">
+  <component name="RunManager" selected="Application.DecoratorPatternTest">
+    <configuration name="BridgePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.structural.bridge.BridgePatternTest" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof.structural.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.structural.decorator.DecoratorPatternTest" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof.structural.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DrawingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gof.structural.flyweight.DrawingClient" />
       <module name="designPattern-GoF" />
@@ -91,19 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.creational.abstractFactory.TestAbstractFactory" />
-      <module name="designPattern-GoF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gof.creational.abstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestCompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gof.structural.composite.TestCompositePattern" />
       <module name="designPattern-GoF" />
@@ -117,26 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.creational.factory.TestFactory" />
-      <module name="designPattern-GoF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gof.creational.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorPatternTest" />
+        <item itemvalue="Application.BridgePatternTest" />
         <item itemvalue="Application.DrawingClient" />
         <item itemvalue="Application.TestCompositePattern" />
         <item itemvalue="Application.PrototypePatternTest" />
-        <item itemvalue="Application.TestAbstractFactory" />
-        <item itemvalue="Application.TestFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718217058093</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added Flyweight DP">
+      <option name="closed" value="true" />
+      <created>1718310402066</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718310402066</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +210,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Builder/ Prototype DPs" />
     <MESSAGE value="added Adapter+Composite+Proxy DPs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Adapter+Composite+Proxy DPs" />
+    <MESSAGE value="added Flyweight DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Flyweight DP" />
   </component>
 </project>
