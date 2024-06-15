@@ -4,27 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Template Method+ DPs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/ATMDispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/DispenseChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Dollar10Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Dollar20Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Dollar50Dispenser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/chainOfResponsibility.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/ChatMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/ChatMediatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/UserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/mediator.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/observer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/GlassHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/HouseTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/HousingClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/WoodenHouse.java" afterDir="false" />
+    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Template Method+Mediator+Chain of Responsibility DPs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/CloseFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/FileInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/FileSystemClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/FileSystemReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/FileSystemReceiverUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/OpenFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/UnixFileSystemReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/WindowsFileSystemReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/WriteFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/command/command.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/interpreter/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/interpreter/InterpreterPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/interpreter/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/interpreter/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/interpreter/interpreter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/ChannelCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/ChannelCollectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/ChannelIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/ChannelTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/IteratorPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/iterator/iterator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/memento/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/memento/DocumentMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/memento/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/memento/MementoPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/memento/memento.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/MyTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/MyTopicSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/ObserverPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/TVContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/TVRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/TVRemoteBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/TVStartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/TVStopState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/state/state.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/CreditCardStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/PaypalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/ShoppingCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/strategy/strategy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/ItemElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/ShoppingCartClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/ShoppingCartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/ShoppingCartVisitorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/visitor/visitor.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/templateMethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/templateMethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/observer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/observer.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +72,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -60,9 +99,16 @@
     "Application.ChatClient.executor": "Run",
     "Application.DecoratorPatternTest.executor": "Run",
     "Application.DrawingClient.executor": "Run",
+    "Application.FileSystemClient.executor": "Run",
     "Application.HousingClient.executor": "Run",
+    "Application.InterpreterPatternTest.executor": "Run",
+    "Application.IteratorPatternTest.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MementoPatternTest.executor": "Run",
+    "Application.ObserverPatternTest.executor": "Run",
     "Application.PrototypePatternTest.executor": "Run",
+    "Application.ShoppingCartClient.executor": "Run",
+    "Application.TVRemoteBasic.executor": "Run",
     "Application.TestAbstractFactory.executor": "Run",
     "Application.TestCompositePattern.executor": "Run",
     "Application.TestFactory.executor": "Run",
@@ -86,13 +132,13 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HousingClient">
-    <configuration name="ATMDispenseChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.behavioral.chainOfResponsibility.ATMDispenseChain" />
+  <component name="RunManager" selected="Application.MementoPatternTest">
+    <configuration name="InterpreterPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.interpreter.InterpreterPatternTest" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof.behavioral.chainOfResponsibility.*" />
+          <option name="PATTERN" value="gof.behavioral.interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.structural.bridge.BridgePatternTest" />
+    <configuration name="IteratorPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.iterator.IteratorPatternTest" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof.structural.bridge.*" />
+          <option name="PATTERN" value="gof.behavioral.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.behavioral.mediator.ChatClient" />
+    <configuration name="MementoPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.memento.MementoPatternTest" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof.behavioral.mediator.*" />
+          <option name="PATTERN" value="gof.behavioral.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.structural.decorator.DecoratorPatternTest" />
+    <configuration name="ShoppingCartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.visitor.ShoppingCartClient" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof.structural.decorator.*" />
+          <option name="PATTERN" value="gof.behavioral.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HousingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.behavioral.templateMethod.HousingClient" />
+    <configuration name="TVRemoteBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.state.TVRemoteBasic" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof.behavioral.templateMethod.*" />
+          <option name="PATTERN" value="gof.behavioral.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HousingClient" />
-        <item itemvalue="Application.ATMDispenseChain" />
-        <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.DecoratorPatternTest" />
-        <item itemvalue="Application.BridgePatternTest" />
+        <item itemvalue="Application.MementoPatternTest" />
+        <item itemvalue="Application.IteratorPatternTest" />
+        <item itemvalue="Application.InterpreterPatternTest" />
+        <item itemvalue="Application.ShoppingCartClient" />
+        <item itemvalue="Application.TVRemoteBasic" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718386295705</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added Template Method+Mediator+Chain of Responsibility DPs">
+      <option name="closed" value="true" />
+      <created>1718457580822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718457580822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +276,7 @@
     <MESSAGE value="added Adapter+Composite+Proxy DPs" />
     <MESSAGE value="added Flyweight DP" />
     <MESSAGE value="added Facade+Bridge+Decorator DPs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Facade+Bridge+Decorator DPs" />
+    <MESSAGE value="added Template Method+Mediator+Chain of Responsibility DPs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Template Method+Mediator+Chain of Responsibility DPs" />
   </component>
 </project>
