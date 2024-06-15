@@ -4,28 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Flyweight DP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/BridgePatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/GreenColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Pentagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/RedColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/bridge/bridge.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/BasicCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/CarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/DecoratorPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/LuxuryCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/SportsCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/decorator/decorator.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/FacadePatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/HelperFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/MySqlHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/OracleHelper.java" afterDir="false" />
+    <list default="true" id="9cca9392-606a-412d-ab01-2546bd22499b" name="Changes" comment="added Template Method+ DPs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/ATMDispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/DispenseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Dollar10Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Dollar20Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/Dollar50Dispenser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/chainOfResponsibility/chainOfResponsibility.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/ChatMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/ChatMediatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/UserImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/mediator/mediator.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/observer/observer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/GlassHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/HouseTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/HousingClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/WoodenHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gof/structural/facade/facade.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gof/structural/facade/facade.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/templateMethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gof/behavioral/templateMethod/templateMethod.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +55,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ATMDispenseChain.executor": "Run",
     "Application.BridgePatternTest.executor": "Run",
+    "Application.ChatClient.executor": "Run",
     "Application.DecoratorPatternTest.executor": "Run",
     "Application.DrawingClient.executor": "Run",
+    "Application.HousingClient.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PrototypePatternTest.executor": "Run",
     "Application.TestAbstractFactory.executor": "Run",
@@ -84,13 +86,39 @@
       <recent name="org" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecoratorPatternTest">
+  <component name="RunManager" selected="Application.HousingClient">
+    <configuration name="ATMDispenseChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.chainOfResponsibility.ATMDispenseChain" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof.behavioral.chainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BridgePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gof.structural.bridge.BridgePatternTest" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="gof.structural.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.mediator.ChatClient" />
+      <module name="designPattern-GoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gof.behavioral.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,38 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.structural.flyweight.DrawingClient" />
+    <configuration name="HousingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gof.behavioral.templateMethod.HousingClient" />
       <module name="designPattern-GoF" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gof.structural.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrototypePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.creational.prototype.PrototypePatternTest" />
-      <module name="designPattern-GoF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gof.creational.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gof.structural.composite.TestCompositePattern" />
-      <module name="designPattern-GoF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gof.structural.composite.*" />
+          <option name="PATTERN" value="gof.behavioral.templateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HousingClient" />
+        <item itemvalue="Application.ATMDispenseChain" />
+        <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.DecoratorPatternTest" />
         <item itemvalue="Application.BridgePatternTest" />
-        <item itemvalue="Application.DrawingClient" />
-        <item itemvalue="Application.TestCompositePattern" />
-        <item itemvalue="Application.PrototypePatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718310402066</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Facade+Bridge+Decorator DPs">
+      <option name="closed" value="true" />
+      <created>1718386295705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718386295705</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +221,7 @@
     <MESSAGE value="added Builder/ Prototype DPs" />
     <MESSAGE value="added Adapter+Composite+Proxy DPs" />
     <MESSAGE value="added Flyweight DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Flyweight DP" />
+    <MESSAGE value="added Facade+Bridge+Decorator DPs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Facade+Bridge+Decorator DPs" />
   </component>
 </project>
